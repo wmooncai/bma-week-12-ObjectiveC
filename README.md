@@ -1,4 +1,4 @@
-> "Program Output (12/4/2012):
+> 'Program Output (12/4/2012):
 
 2012-12-04 02:03:20.924 bma-week-12-ObjectiveC[3742:403] 
 
@@ -61,4 +61,4 @@ QCOM:
 Purchase Cost: $3456000.25
 Current Value: $2643000.00
        Profit: -$813000.25
-"
+'
