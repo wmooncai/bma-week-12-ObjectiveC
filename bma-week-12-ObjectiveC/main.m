@@ -42,12 +42,12 @@ void bma_week_12_Ch17(NSMutableArray *stockPortfolio)
     NSArray *stockPortfolio = [NSArray arrayWithObjects : stock1, stock2
                                                         , stock3, nil];
     */
-    NSLog(@"\n\n***** BMA Week 12 Homework Chapter 17 Challenge *****\n\n");
+    NSLog(@" \n \n***** BMA Week 12 Homework Chapter 17 Challenge ***** \n \n");
     for (StockHolding *stock in stockPortfolio) {
         
         profit = ( [stock valueInDollars] - [stock costInDollars] );
         
-        NSLog(@"\n%@:\nPurchase Cost: $%.2f\nCurrent Value: $%.2f\n       Profit: %s%.2f\n\n"
+        NSLog(@" \n%@: \nPurchase Cost: $%.2f\nCurrent Value: $%.2f \n       Profit: %s%.2f \n \n"
               , [stock ticker]
               , [stock costInDollars]
               , [stock valueInDollars]
@@ -91,12 +91,12 @@ void bma_week_12_Ch18(NSMutableArray *stockPortfolio)
     NSArray *stockPortfolio = [NSArray arrayWithObjects : stock1, stock2
                                                         , stock3, nil];
     */
-    NSLog(@"\n\n***** BMA Week 12 Homework Chapter 18 Challenge *****\n\n");
+    NSLog(@" \n \n***** BMA Week 12 Homework Chapter 18 Challenge ***** \n \n");
     for (StockHolding *stock in stockPortfolio) {
         
         profit = ( [stock valueInDollars] - [stock costInDollars] );
         
-        NSLog(@"\n%@:\nPurchase Cost: $%.2f\nCurrent Value: $%.2f\n       Profit: %s%.2f\n\n"
+        NSLog(@"\n%@: \nPurchase Cost: $%.2f \nCurrent Value: $%.2f \n       Profit: %s%.2f \n \n"
               , [stock ticker]
               , [stock costInDollars]
               , [stock valueInDollars]
